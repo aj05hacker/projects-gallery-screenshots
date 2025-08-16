@@ -1,128 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>PNG Files Gallery - Status: Online</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 2em; }
-        h2 { color: green; }
-        ul { line-height: 2em; list-style: none; padding: 0; }
-        li { margin: 0.5em 0; }
-        .main-link { text-decoration: none; color: #2980b9; }
-        .file-link { text-decoration: none; color: #444; margin-left: 4px; }
-    </style>
+  <meta charset="UTF-8">
+  <title>Project Gallery Screenshots</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      background: #171B28;
+      color: #fff;
+      margin: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .status {
+      background: #17d397;
+      color: #171B28;
+      padding: 10px 36px;
+      font-weight: bold;
+      font-size: 1.8rem;
+      border-radius: 10px;
+      margin: 24px 0 34px 0;
+      box-shadow: 0 4px 18px 0 rgba(20,255,180,0.11);
+      letter-spacing: 0.1em;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0;
+      justify-content: center;
+      width: 100%;
+      max-width: 1600px;
+      margin-bottom: 45px;
+    }
+    .gallery img {
+      width: 310px;
+      height: 195px;
+      object-fit: cover;
+      margin: 0;
+      border: 1.5px solid #252e47;
+      border-radius: 9px;
+      box-shadow: 0 2px 18px 0 rgba(23,25,40,0.07);
+      transition: transform 0.13s;
+    }
+    .gallery img:hover {
+      transform: scale(1.025) translateY(-5px);
+      border-color: #17d397;
+    }
+    @media (max-width: 700px) {
+      .gallery img { width: 99vw; height: auto; margin:0 0 8px; }
+      .gallery { flex-direction: column; align-items: center;}
+    }
+    h1 { display: none; }
+  </style>
 </head>
 <body>
-    <h2>Status: Online</h2>
-    <ul>
-        <li>
-            <a class="main-link" href="https://projects-gallery-screenshots.vercel.app/" target="_blank">https://projects-gallery-screenshots.vercel.app/</a>
-            <a class="file-link" href="https://github.com/aj05hacker/projects-gallery-screenshots/blob/main/404.abdulhajees.in.png" target="_blank" title="404.abdulhajees.in.png">404.abdulhajees.in.png</a>
-        </li>
-        <li>
-            <a class="main-link" href="https://projects-gallery-screenshots.vercel.app/" target="_blank">https://projects-gallery-screenshots.vercel.app/</a>
-            <a class="file-link" href="https://github.com/aj05hacker/projects-gallery-screenshots/blob/main/AHwc_banner.png" target="_blank" title="AHwc_banner.png">AHwc_banner.png</a>
-        </li>
-        <li>
-            <a class="main-link" href="https://projects-gallery-screenshots.vercel.app/" target="_blank">https://projects-gallery-screenshots.vercel.app/</a>
-            <a class="file-link" href="https://github.com/aj05hacker/projects-gallery-screenshots/blob/main/about.abdulhajees.in.png" target="_blank" title="about.abdulhajees.in.png">about.abdulhajees.in.png</a>
-        </li>
-        <li>
-            <a class="main-link" href="https://projects-gallery-screenshots.vercel.app/" target="_blank">https://projects-gallery-screenshots.vercel.app/</a>
-            <a class="file-link" href="https://github.com/aj05hacker/projects-gallery-screenshots/blob/main/ahsearch-hub.vercel.app.png" target="_blank" title="ahsearch-hub.vercel.app.png">ahsearch-hub.vercel.app.png</a>
-        </li>
-        <li>
-            <a class="main-link" href="https://projects-gallery-screenshots.vercel.app/" target="_blank">https://projects-gallery-screenshots.vercel.app/</a>
-            <a class="file-link" href="https://github.com/aj05hacker/projects-gallery-screenshots/blob/main/ahtrackr.abdulhajees.in.png" target="_blank" title="ahtrackr.abdulhajees.in.png">ahtrackr.abdulhajees.in.png</a>
-        </li>
-        <li>
-            <a class="main-link" href="https://projects-gallery-screenshots.vercel.app/" target="_blank">https://projects-gallery-screenshots.vercel.app/</a>
-            <a class="file-link" href="https://github.com/aj05hacker/projects-gallery-screenshots/blob/main/ahwebcrafts.abdulhajees.in.png" target="_blank" title="ahwebcrafts.abdulhajees.in.png">ahwebcrafts.abdulhajees.in.png</a>
-        </li>
-        <li>
-            <a class="main-link" href="https://projects-gallery-screenshots.vercel.app/" target="_blank">https://projects-gallery-screenshots.vercel.app/</a>
-            <a class="file-link" href="https://github.com/aj05hacker/projects-gallery-screenshots/blob/main/ai.abdulhajees.in.png" target="_blank" title="ai.abdulhajees.in.png">ai.abdulhajees.in.png</a>
-        </li>
-        <li>
-            <a class="main-link" href="https://projects-gallery-screenshots.vercel.app/" target="_blank">https://projects-gallery-screenshots.vercel.app/</a>
-            <a class="file-link" href="https://github.com/aj05hacker/projects-gallery-screenshots/blob/main/askit.abdulhajees.in.png" target="_blank" title="askit.abdulhajees.in.png">askit.abdulhajees.in.png</a>
-        </li>
-        <li>
-            <a class="main-link" href="https://projects-gallery-screenshots.vercel.app/" target="_blank">https://projects-gallery-screenshots.vercel.app/</a>
-            <a class="file-link" href="https://github.com/aj05hacker/projects-gallery-screenshots/blob/main/beta.pludo.online.png" target="_blank" title="beta.pludo.online.png">beta.pludo.online.png</a>
-        </li>
-        <li>
-            <a class="main-link" href="https://projects-gallery-screenshots.vercel.app/" target="_blank">https://projects-gallery-screenshots.vercel.app/</a>
-            <a class="file-link" href="https://github.com/aj05hacker/projects-gallery-screenshots/blob/main/blogs.abdulhajees.in.png" target="_blank" title="blogs.abdulhajees.in.png">blogs.abdulhajees.in.png</a>
-        </li>
-        <li>
-            <a class="main-link" href="https://projects-gallery-screenshots.vercel.app/" target="_blank">https://projects-gallery-screenshots.vercel.app/</a>
-            <a class="file-link" href="https://github.com/aj05hacker/projects-gallery-screenshots/blob/main/course-html.abdulhajees.in.png" target="_blank" title="course-html.abdulhajees.in.png">course-html.abdulhajees.in.png</a>
-        </li>
-        <li>
-            <a class="main-link" href="https://projects-gallery-screenshots.vercel.app/" target="_blank">https://projects-gallery-screenshots.vercel.app/</a>
-            <a class="file-link" href="https://github.com/aj05hacker/projects-gallery-screenshots/blob/main/course-prompt-engineering.abdulhajees.in.png" target="_blank" title="course-prompt-engineering.abdulhajees.in.png">course-prompt-engineering.abdulhajees.in.png</a>
-        </li>
-        <li>
-            <a class="main-link" href="https://projects-gallery-screenshots.vercel.app/" target="_blank">https://projects-gallery-screenshots.vercel.app/</a>
-            <a class="file-link" href="https://github.com/aj05hacker/projects-gallery-screenshots/blob/main/drive.abdulhajees.in.png" target="_blank" title="drive.abdulhajees.in.png">drive.abdulhajees.in.png</a>
-        </li>
-        <li>
-            <a class="main-link" href="https://projects-gallery-screenshots.vercel.app/" target="_blank">https://projects-gallery-screenshots.vercel.app/</a>
-            <a class="file-link" href="https://github.com/aj05hacker/projects-gallery-screenshots/blob/main/edu.abdulhajees.in.png" target="_blank" title="edu.abdulhajees.in.png">edu.abdulhajees.in.png</a>
-        </li>
-        <li>
-            <a class="main-link" href="https://projects-gallery-screenshots.vercel.app/" target="_blank">https://projects-gallery-screenshots.vercel.app/</a>
-            <a class="file-link" href="https://github.com/aj05hacker/projects-gallery-screenshots/blob/main/edutech-landingpage.vercel.app.png" target="_blank" title="edutech-landingpage.vercel.app.png">edutech-landingpage.vercel.app.png</a>
-        </li>
-        <li>
-            <a class="main-link" href="https://projects-gallery-screenshots.vercel.app/" target="_blank">https://projects-gallery-screenshots.vercel.app/</a>
-            <a class="file-link" href="https://github.com/aj05hacker/projects-gallery-screenshots/blob/main/erp.abdulhajees.in.png" target="_blank" title="erp.abdulhajees.in.png">erp.abdulhajees.in.png</a>
-        </li>
-        <li>
-            <a class="main-link" href="https://projects-gallery-screenshots.vercel.app/" target="_blank">https://projects-gallery-screenshots.vercel.app/</a>
-            <a class="file-link" href="https://github.com/aj05hacker/projects-gallery-screenshots/blob/main/erp2.abdulhajees.in.png" target="_blank" title="erp2.abdulhajees.in.png">erp2.abdulhajees.in.png</a>
-        </li>
-        <li>
-            <a class="main-link" href="https://projects-gallery-screenshots.vercel.app/" target="_blank">https://projects-gallery-screenshots.vercel.app/</a>
-            <a class="file-link" href="https://github.com/aj05hacker/projects-gallery-screenshots/blob/main/erp3.abdulhajees.in.png" target="_blank" title="erp3.abdulhajees.in.png">erp3.abdulhajees.in.png</a>
-        </li>
-        <li>
-            <a class="main-link" href="https://projects-gallery-screenshots.vercel.app/" target="_blank">https://projects-gallery-screenshots.vercel.app/</a>
-            <a class="file-link" href="https://github.com/aj05hacker/projects-gallery-screenshots/blob/main/food-fusion-donate.vercel.app.png" target="_blank" title="food-fusion-donate.vercel.app.png">food-fusion-donate.vercel.app.png</a>
-        </li>
-        <li>
-            <a class="main-link" href="https://projects-gallery-screenshots.vercel.app/" target="_blank">https://projects-gallery-screenshots.vercel.app/</a>
-            <a class="file-link" href="https://github.com/aj05hacker/projects-gallery-screenshots/blob/main/greenhouse-login.abdulhajees.in.png" target="_blank" title="greenhouse-login.abdulhajees.in.png">greenhouse-login.abdulhajees.in.png</a>
-        </li>
-        <li>
-            <a class="main-link" href="https://projects-gallery-screenshots.vercel.app/" target="_blank">https://projects-gallery-screenshots.vercel.app/</a>
-            <a class="file-link" href="https://github.com/aj05hacker/projects-gallery-screenshots/blob/main/login2-ebon.vercel.app.png" target="_blank" title="login2-ebon.vercel.app.png">login2-ebon.vercel.app.png</a>
-        </li>
-        <li>
-            <a class="main-link" href="https://projects-gallery-screenshots.vercel.app/" target="_blank">https://projects-gallery-screenshots.vercel.app/</a>
-            <a class="file-link" href="https://github.com/aj05hacker/projects-gallery-screenshots/blob/main/money.abdulhajees.in.png" target="_blank" title="money.abdulhajees.in.png">money.abdulhajees.in.png</a>
-        </li>
-        <li>
-            <a class="main-link" href="https://projects-gallery-screenshots.vercel.app/" target="_blank">https://projects-gallery-screenshots.vercel.app/</a>
-            <a class="file-link" href="https://github.com/aj05hacker/projects-gallery-screenshots/blob/main/montipro.abdulhajees.in.png" target="_blank" title="montipro.abdulhajees.in.png">montipro.abdulhajees.in.png</a>
-        </li>
-        <li>
-            <a class="main-link" href="https://projects-gallery-screenshots.vercel.app/" target="_blank">https://projects-gallery-screenshots.vercel.app/</a>
-            <a class="file-link" href="https://github.com/aj05hacker/projects-gallery-screenshots/blob/main/projects.abdulhajees.in.png" target="_blank" title="projects.abdulhajees.in.png">projects.abdulhajees.in.png</a>
-        </li>
-        <li>
-            <a class="main-link" href="https://projects-gallery-screenshots.vercel.app/" target="_blank">https://projects-gallery-screenshots.vercel.app/</a>
-            <a class="file-link" href="https://github.com/aj05hacker/projects-gallery-screenshots/blob/main/search.abdulhajees.in.png" target="_blank" title="search.abdulhajees.in.png">search.abdulhajees.in.png</a>
-        </li>
-        <li>
-            <a class="main-link" href="https://projects-gallery-screenshots.vercel.app/" target="_blank">https://projects-gallery-screenshots.vercel.app/</a>
-            <a class="file-link" href="https://github.com/aj05hacker/projects-gallery-screenshots/blob/main/sigmahub.abdulhajees.in.png" target="_blank" title="sigmahub.abdulhajees.in.png">sigmahub.abdulhajees.in.png</a>
-        </li>
-        <li>
-            <a class="main-link" href="https://projects-gallery-screenshots.vercel.app/" target="_blank">https://projects-gallery-screenshots.vercel.app/</a>
-            <a class="file-link" href="https://github.com/aj05hacker/projects-gallery-screenshots/blob/main/www.abdulhajees.in.png" target="_blank" title="www.abdulhajees.in.png">www.abdulhajees.in.png</a>
-        </li>
-    </ul>
+  <div class="status">status:online</div>
+  <div class="gallery">
+    <img src="https://github.com/aj05hacker/projects-gallery-screenshots/blob/main/404.abdulhajees.in.png?raw=true" alt="404.abdulhajees.in.png">
+    <img src="https://github.com/aj05hacker/projects-gallery-screenshots/blob/main/AHwc_banner.png?raw=true" alt="AHwc_banner.png">
+    <img src="https://github.com/aj05hacker/projects-gallery-screenshots/blob/main/about.abdulhajees.in.png?raw=true" alt="about.abdulhajees.in.png">
+    <img src="https://github.com/aj05hacker/projects-gallery-screenshots/blob/main/ahsearch-hub.vercel.app.png?raw=true" alt="ahsearch-hub.vercel.app.png">
+    <img src="https://github.com/aj05hacker/projects-gallery-screenshots/blob/main/ahtrackr.abdulhajees.in.png?raw=true" alt="ahtrackr.abdulhajees.in.png">
+    <img src="https://github.com/aj05hacker/projects-gallery-screenshots/blob/main/ahwebcrafts.abdulhajees.in.png?raw=true" alt="ahwebcrafts.abdulhajees.in.png">
+    <img src="https://github.com/aj05hacker/projects-gallery-screenshots/blob/main/ai.abdulhajees.in.png?raw=true" alt="ai.abdulhajees.in.png">
+    <img src="https://github.com/aj05hacker/projects-gallery-screenshots/blob/main/askit.abdulhajees.in.png?raw=true" alt="askit.abdulhajees.in.png">
+    <img src="https://github.com/aj05hacker/projects-gallery-screenshots/blob/main/beta.pludo.online.png?raw=true" alt="beta.pludo.online.png">
+    <img src="https://github.com/aj05hacker/projects-gallery-screenshots/blob/main/blogs.abdulhajees.in.png?raw=true" alt="blogs.abdulhajees.in.png">
+    <img src="https://github.com/aj05hacker/projects-gallery-screenshots/blob/main/course-html.abdulhajees.in.png?raw=true" alt="course-html.abdulhajees.in.png">
+    <img src="https://github.com/aj05hacker/projects-gallery-screenshots/blob/main/course-prompt-engineering.abdulhajees.in.png?raw=true" alt="course-prompt-engineering.abdulhajees.in.png">
+    <img src="https://github.com/aj05hacker/projects-gallery-screenshots/blob/main/drive.abdulhajees.in.png?raw=true" alt="drive.abdulhajees.in.png">
+    <img src="https://github.com/aj05hacker/projects-gallery-screenshots/blob/main/edu.abdulhajees.in.png?raw=true" alt="edu.abdulhajees.in.png">
+    <img src="https://github.com/aj05hacker/projects-gallery-screenshots/blob/main/edutech-landingpage.vercel.app.png?raw=true" alt="edutech-landingpage.vercel.app.png">
+    <img src="https://github.com/aj05hacker/projects-gallery-screenshots/blob/main/erp.abdulhajees.in.png?raw=true" alt="erp.abdulhajees.in.png">
+    <img src="https://github.com/aj05hacker/projects-gallery-screenshots/blob/main/erp2.abdulhajees.in.png?raw=true" alt="erp2.abdulhajees.in.png">
+    <img src="https://github.com/aj05hacker/projects-gallery-screenshots/blob/main/erp3.abdulhajees.in.png?raw=true" alt="erp3.abdulhajees.in.png">
+    <img src="https://github.com/aj05hacker/projects-gallery-screenshots/blob/main/food-fusion-donate.vercel.app.png?raw=true" alt="food-fusion-donate.vercel.app.png">
+    <img src="https://github.com/aj05hacker/projects-gallery-screenshots/blob/main/greenhouse-login.abdulhajees.in.png?raw=true" alt="greenhouse-login.abdulhajees.in.png">
+    <img src="https://github.com/aj05hacker/projects-gallery-screenshots/blob/main/login2-ebon.vercel.app.png?raw=true" alt="login2-ebon.vercel.app.png">
+    <img src="https://github.com/aj05hacker/projects-gallery-screenshots/blob/main/money.abdulhajees.in.png?raw=true" alt="money.abdulhajees.in.png">
+    <img src="https://github.com/aj05hacker/projects-gallery-screenshots/blob/main/montipro.abdulhajees.in.png?raw=true" alt="montipro.abdulhajees.in.png">
+    <img src="https://github.com/aj05hacker/projects-gallery-screenshots/blob/main/projects.abdulhajees.in.png?raw=true" alt="projects.abdulhajees.in.png">
+    <img src="https://github.com/aj05hacker/projects-gallery-screenshots/blob/main/search.abdulhajees.in.png?raw=true" alt="search.abdulhajees.in.png">
+    <img src="https://github.com/aj05hacker/projects-gallery-screenshots/blob/main/sigmahub.abdulhajees.in.png?raw=true" alt="sigmahub.abdulhajees.in.png">
+    <img src="https://github.com/aj05hacker/projects-gallery-screenshots/blob/main/www.abdulhajees.in.png?raw=true" alt="www.abdulhajees.in.png">
+  </div>
 </body>
 </html>
